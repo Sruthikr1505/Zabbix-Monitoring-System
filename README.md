@@ -38,3 +38,36 @@ K.R.SRUTHI
 License
 MIT License
 
+Output Snapshots:
+
+After Installation:
+
+plaintextCopy[INFO] System updated successfully
+[INFO] Prerequisites installed
+[INFO] Zabbix components installed
+[INFO] Database configured
+[INFO] Services started
+✓ zabbix-server is running
+✓ zabbix-agent is running
+✓ apache2 is running
+✓ postgresql is running
+
+Web Interface:
+
+plaintextCopyhttp://your-server/zabbix/
+Login successful
+Dashboard accessible
+Latest data visible
+
+Monitoring Output:
+
+plaintextCopyHosts: 1 monitored
+Items: 50 enabled
+Triggers: 25 enabled
+Problems: 0 active
+
+Alert System:
+
+plaintextCopyEmail media type: Configured
+Slack integration: Active
+Test notification: Sent successfully

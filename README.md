@@ -38,7 +38,7 @@ K.R.SRUTHI
 License
 MIT License
 
-Output Snapshots:
+##Output Snapshots:
 
 After Installation:
 

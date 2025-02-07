@@ -17,3 +17,24 @@ This repository contains complete implementation files for Zabbix monitoring sys
 2. Run installation script:
    ```bash
    sudo ./scripts/install.sh
+Configure monitoring:
+sudo ./scripts/setup_monitoring.sh
+
+Set up alerts:
+sudo ./scripts/setup_alerts.sh
+
+
+Requirements
+Ubuntu 22.04 LTS
+Minimum 4GB RAM
+50GB storage
+PostgreSQL 14+
+Apache2
+PHP 8.1+
+
+Author
+K.R.SRUTHI
+
+License
+MIT License
+

@@ -1,0 +1,31 @@
+{
+  "dashboard": {
+    "name": "System Overview",
+    "widgets": [
+      {
+        "type": "graph",
+        "name": "CPU Usage",
+        "x": 0,
+        "y": 0,
+        "width": 12,
+        "height": 5,
+        "view_mode": 0,
+        "fields": {
+          "itemid": "CPU Usage Item ID"
+        }
+      },
+      {
+        "type": "graph",
+        "name": "Memory Usage",
+        "x": 0,
+        "y": 5,
+        "width": 12,
+        "height": 5,
+        "view_mode": 0,
+        "fields": {
+          "itemid": "Memory Usage Item ID"
+        }
+      }
+    ]
+  }
+}

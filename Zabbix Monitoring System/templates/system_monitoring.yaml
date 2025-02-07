@@ -1,0 +1,24 @@
+zabbix_export:
+  version: '6.0'
+  templates:
+    - name: "Basic System Monitoring"
+      groups:
+        - name: Templates
+      items:
+        - name: "CPU utilization"
+          type: ZABBIX_ACTIVE
+          key: 'system.cpu.util[,idle]'
+          value_type: FLOAT
+          units: '%'
+          
+        - name: "Memory usage"
+          type: ZABBIX_ACTIVE
+          key: 'vm.memory.size[used]'
+          value_type: FLOAT
+          units: B
+          
+        - name: "Disk space usage"
+          type: ZABBIX_ACTIVE
+          key: 'vfs.fs.size[/,used]'
+          value_type: FLOAT
+          units: B
